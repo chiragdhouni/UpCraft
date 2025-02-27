@@ -5,12 +5,17 @@ import { Toaster } from "sonner";
 import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { dark } from "@clerk/themes";
+import { Rocket } from "lucide-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AI Career Coach",
+  title: "UpCraft",
   description: "",
+  icons: {
+    icon: Rocket, // Standard favicon
+    shortcut: "/favicon-32x32.png", // Alternative icon
+  },
 };
 
 export default function RootLayout({ children }) {

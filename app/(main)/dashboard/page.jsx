@@ -15,7 +15,7 @@ export default async function DashboardPage() {
   const insights = await getIndustryInsights();
 
   return (
-    <div className="container mx-auto bg-inherit">
+    <div className="container mx-auto">
       <DashboardView insights={insights} />
     </div>
   );
