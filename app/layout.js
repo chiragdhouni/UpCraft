@@ -13,7 +13,7 @@ export const metadata = {
   title: "UpCraft",
   description: "",
   icons: {
-    icon: Rocket, // Standard favicon
+    icon: "public/logo_upcraft.png", // Standard favicon
     shortcut: "/favicon-32x32.png", // Alternative icon
   },
 };
